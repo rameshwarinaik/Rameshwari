@@ -5,7 +5,7 @@ library(caret)
 library(glmnet)
 library(ISLR)
 
-set.seed(123) 
+set.seed(1234) 
 
 tc = trainControl(method = "cv", number = 10,verboseIter = T)
 
